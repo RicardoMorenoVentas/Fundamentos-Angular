@@ -5,16 +5,16 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HtmlComponent } from './html/html.component';
 import { TypescriptComponent } from './typescript/typescript.component';
-import { InterpolarizacionComponent } from './interpolarizacion/interpolarizacion.component';
 import { OneWayBindingComponent } from './one-way-binding/one-way-binding.component';
+import { InterpolacionComponent } from './interpolacion/interpolacion.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HtmlComponent,
     TypescriptComponent,
-    InterpolarizacionComponent,
-    OneWayBindingComponent
+    OneWayBindingComponent,
+    InterpolacionComponent
   ],
   imports: [
     BrowserModule,

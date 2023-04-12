@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { TypescriptComponent } from './typescript.component';
+import { InterpolacionComponent } from './interpolacion.component';
 
-describe('TypescriptComponent', () => {
-  let component: TypescriptComponent;
-  let fixture: ComponentFixture<TypescriptComponent>;
+describe('InterpolacionComponent', () => {
+  let component: InterpolacionComponent;
+  let fixture: ComponentFixture<InterpolacionComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ TypescriptComponent ]
+      declarations: [ InterpolacionComponent ]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(TypescriptComponent);
+    fixture = TestBed.createComponent(InterpolacionComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
@@ -21,5 +21,3 @@ describe('TypescriptComponent', () => {
     expect(component).toBeTruthy();
   });
 });
-
-
