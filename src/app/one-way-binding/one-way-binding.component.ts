@@ -22,10 +22,19 @@ export class OneWayBindingComponent {
     let int_out = Math.round(Math.random() * (max - min) + min);
     this.randomNumber = int_out;
     this.flagText()
+    this.getRandomSize()
   }
 
   flagText(){
     this.boleano = this.randomNumber % 2 == 0;
     this.valor_depende =  this.boleano ? "El numero es par" : "El numero es impar";
+  }
+
+  getRandomSize(){
+    let max = 30;
+    let min = 10;
+    let int_out = Math.round(Math.random() * (max - min) + min);
+    let out = `font-size: ${int_out}px;`;
+    return out;
   }
 }
