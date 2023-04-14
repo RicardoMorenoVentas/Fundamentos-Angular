@@ -14,6 +14,7 @@ export class TypescriptComponent implements OnInit{
     let unknown_type:unknown = 10;
     console.log('Numero: ' + this.getNumber());
     console.log('String: Hola');
+    console.log('String comillas especiales: ' + `Este texto es especial, contiene una variable any -> ${any_type}`);
     console.log('Boolean: ' + false);
     console.log('Any: ' + any_type);
     console.log('Unkwnown: ' + unknown_type)
